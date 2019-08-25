@@ -23,52 +23,22 @@
 	<![endif]-->
 </head>
 
-<!--
-
-
-
-	View source is a feature, not a bug. Thanks for your curiosity and
-	interest in participating!
-
-	Here are the submission guidelines for the new and improved csszengarden.com:
-
-	- CSS3? Of course! Prefix for ALL browsers where necessary.
-	- go responsive; test your layout at multiple screen sizes.
-	- your browser testing baseline: IE9+, recent Chrome/Firefox/Safari, and iOS/Android
-	- Graceful degradation is acceptable, and in fact highly encouraged.
-	- use classes for styling. Don't use ids.
-	- web fonts are cool, just make sure you have a license to share the files. Hosted 
-	  services that are applied via the CSS file (ie. Google Fonts) will work fine, but
-	  most that require custom HTML won't. TypeKit is supported, see the readme on this
-	  page for usage instructions: https://github.com/mezzoblue/csszengarden.com/
-
-	And a few tips on building your CSS file:
-
-	- use :first-child, :last-child and :nth-child to get at non-classed elements
-	- use ::before and ::after to create pseudo-elements for extra styling
-	- use multiple background images to apply as many as you need to any element
-	- use the Kellum Method for image replacement, if still needed. http://goo.gl/GXxdI
-	- don't rely on the extra divs at the bottom. Use ::before and ::after instead.
-
-		
--->
-
-<body id="css-zen-garden">
+<body>
 <div class="page-wrapper">
 
-	<section class="intro" id="zen-intro">
+	<section class="intro">
 		<header role="banner">
 			<h1>Software Engineer</h1>
 			<h2>Brant Collins</h2>
 		</header>
 
-		<div class="summary" id="zen-summary" role="article">
+		<div class="summary" role="article">
 			<p>Software Engineer | Statistician | Teacher</p>
 
-			<p>As a software engineer, I enjoy leveraging my experience as a statistician and teacher by working in organizations that value input from their technologists about varied aspects of their digital product.  I work best surrounded by smart people who generously share ideas.  </a></p>
+			<p>As a software engineer, I enjoy leveraging my experience as a statistician and teacher by working in organizations that value input from their technologists about varied aspects of their digital products.  I work best surrounded by smart people who generously share ideas.  </a></p>
 		</div>
 
-		<div class="preamble" id="zen-preamble" role="article">
+		<div class="education" role="article">
 			<h3>Education</h3>
 			<table class="education-table">
 				<th></th>
@@ -91,81 +61,102 @@
 	</section>
 
 		<aside class="sidebar" role="complementary">
-		<div class="wrapper">
+		<div>
 
-			<div class="design-selection" id="design-selection">
-				<h3 class="select">Client-Side Software</h3>
+			<div>
+				<h3> Full-Stack Software</h3>
 				<nav role="navigation">
 					<ul>
+
 						<li>
-							<a href="#" class="design-name">Postfix Calculator</a> 
+							<a href="#">Photo Gallery (not yet deployed)</a> 
+							[<a href="https://github.com/lbrantcollins/photo-share" target="_blank" class="code-link">code</a>]
+							<br/>					
+							Javascript, node.js express, sessions, mongoose, mongoDB, Bootstrap
+						</li>
+
+						<li>
+							<a href="#" target="_blank">Tool Lender (not yet deployed)</a> 
+							<!-- https://bittools.herokuapp.com/tools -->
+							[<a href="https://github.com/lbrantcollins/tools-project" target="_blank" target="_blank" class="code-link">code</a>]
+							<br/>					
+							Javascript, node.js, express, sessions, mongoose, mongoDB, flexbox
+						</li>	
+						
+						<li>
+							<a href="#">Video Sharing (not yet deployed)</a> 
+							<br/>
+							[<a href="https://github.com/lbrantcollins/free_quency-react" target="_blank" class="code-link">client-side code</a>]
+							[<a href="https://github.com/lbrantcollins/free_quency-api" target="_blank" class="code-link">back-end code</a>]
+							<br/>					
+							Javascript, React, Python, Flask, SQL, semantic-ui
+						</li>
+
+						<li>
+							<a href="#">Under Construction</a> 
+							<br/>
+							[<a href="#" class="code-link">client-side code</a>]
+							[<a href="#" class="code-link">back-end code</a>]
+							<br/>					
+							Javascript, React, Ruby, Sinatra, SQL, Bootstrap
+						</li>
+
+					</ul>
+				</nav>
+			</div>
+
+			<div>
+				<h3>Client-Side Software</h3>
+				<nav role="navigation">
+					<ul>
+
+						<!-- <li>
+							<a href="#">Postfix Calculator</a> 
 							[<a href="#" class="code-link">code</a>]
 							<br/>					
 							Javascript, CSS flexbox
 						</li>
+
 						<li>
-							<a href="#" class="design-name">Tomagotchi</a> 
+							<a href="#">Tomagotchi</a> 
 							[<a href="#" class="code-link">code</a>]
 							<br/>					
 							Javascript, CSS animation
-						</li>
+						</li> -->
+
 						<li>
-							<a href="#" class="design-name">Mastermind</a> 
+							<a href="#">Mastermind (not yet deployed)</a> 
 							[<a href="https://github.com/lbrantcollins/MasterMind" target="_blank" class="code-link">code</a>]
 							<br/>					
 							Javascript, CSS flexbox, JQuery
 						</li>
+
 						<li>
-							<a href="#" class="design-name">Giphy Search</a> 
-							[<a href="#" class="code-link">code</a>]
+							<a href="https://giphy-grab.herokuapp.com" target="_blank">Giphy Search</a> 
+							[<a href="https://github.com/lbrantcollins/giphy-grab" target="_blank" class="code-link">code</a>]
 							<br/>					
-							Javascript, React, API
+							Javascript, React, web API
 						</li>
+
+						<li>
+							<a href="https://pet-list.herokuapp.com" target="_blank">Pet List</a> 
+							[<a href="https://github.com/lbrantcollins/pet-list" target="_blank" class="code-link">code</a>]
+							<br/>					
+							Javascript, React, node.js, semantic-ui
+						</li>
+
+						<br/>
+
 					</ul>
+							Note: All code is viewable.<br/>
+							... even for projects not yet deployed.
+
 				</nav>
 			</div>
 
-			<div class="design-archives" id="design-archives">
-				<h3 class="archives"> Full-Stack Software</h3>
-				<nav role="navigation">
-					<ul>
-						<li>
-							<a href="#" class="design-name">Photo Gallery</a> 
-							[<a href="#" class="code-link">code</a>]
-							<br/>					
-							Javascript, Bootsrap, node.js express
-						</li>
-						<li>
-							<a href="https://bittools.herokuapp.com/tools" target="_blank" class="design-name">Tool Lender</a> 
-							[<a href="https://github.com/lbrantcollins/tools-project" target="_blank" class="code-link">code</a>]
-							<br/>					
-							Javascript, node.js express, mongoDB, flexbox
-						</li>
-						
-						<li>
-							<a href="#" class="design-name">Another Project</a> 
-							[<a href="#" class="code-link">code</a>]
-							<br/>					
-							Javascript, React, node.js, Express, mongoDB, semantic-ui
-						</li>
-						<li>
-							<a href="#" class="design-name">Another Project</a> 
-							[<a href="#" class="code-link">code</a>]
-							<br/>					
-							Javascript, React, Python, Flask, SQL, semantic-ui
-						</li>
-						<li>
-							<a href="#" class="design-name">Another Project</a> 
-							[<a href="#" class="code-link">code</a>]
-							<br/>					
-							Javascript, React, Python, Flask, SQL, API, Bootstrap
-						</li>
-					</ul>
-				</nav>
-			</div>
-
-			<!-- <div class="zen-resources" id="zen-resources">
-				<h3 class="resources">Javascript Programming</h3>
+			
+			<!-- <div>
+				<h3>Javascript Programming</h3>
 				<ul>
 						<li>
 							Recursion 
@@ -183,17 +174,19 @@
 						</li>
 					</ul>
 			</div> -->
+
 		</div>
 	</aside>
 
-	<div class="main supporting" id="zen-supporting" role="main">
+	<div class="main" role="main">
 
-		<div class="participation" id="zen-participation" role="article">
-			<h3>About Me</h3>
+		<div class="my-background" role="article">
+			<h3>A Little More About Me...</h3>
 				
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<p>Nullam eget felis eget nunc lobortis mattis aliquam faucibus purus. Faucibus in ornare quam viverra orci sagittis eu. Leo vel fringilla est ullamcorper eget nulla. </p>
-			<p>Enim sed faucibus turpis in eu mi bibendum. Massa sed elementum tempus egestas sed sed risus. Sed arcu non odio euismod lacinia at quis. </p>
+			<p>I'm thoroughly enjoying my new career as a software engineer and web developer.  I love the abstraction, logic, and problem-solving aspects of computer programming -- even the debugging and testing.  Plus, I'm helping people access, interact with, and learn from data/information just as I have done in my previous work as a university lecturer, a statistician, an actuary, and even in my first real job where I worked in computer-aided drafting.</p>
+
+			<p>Please contact me and we can chat about whether or not I would be a good fit for your organization.</p>
+			
 			
 		</div>
 
@@ -205,7 +198,7 @@
 
 		
 
-		<div class="benefits" id="zen-benefits" role="article">
+		<div class="skills" role="article">
 			<h3 id="skills-header">Skills</h3>
 			<div class="icons">
 				<img src="./images/html.png" width=50px style="margin: 3px">
@@ -217,8 +210,10 @@
 				<img src="./images/mongodb.png" width=50px>
 				<img src="./images/react.png" width=45px style="margin: 3px">
 				<img src="./images/python.png" width=40px style="margin: 3px">
-				<img src="./images/flask.png" width=50px style="margin: 3px">
+				<img src="./images/flask.png" width=35px style="margin: 3px">
 				<img src="./images/SQL.png" width=35px style="margin: 3px"> 
+				<img src="./images/ruby2.png" width=40px style="margin: 3px"> 
+				<img src="./images/sinatra.png" width=50px style="margin: 3px"> 
 				<!-- <img src="./images/C.png" width=25px style="margin: 3px"> -->
 				<img src="./images/github.png" width=40px style="margin: 3px">
 				<img src="./images/R.png" width=45px style="margin-left: 3px">
@@ -227,6 +222,10 @@
 				<img src="./images/vim.png" width=50px style="margin: 3px">
 				<img src="./images/sublime.png" width=45px style="margin: 3px">
 			</div>
+			<p>
+			HTML, CSS, Bootstrap, JavaScript, JQjuery, Node.js with express, mongoose, mongoDB, React,
+			Python with Flask, SQL, Ruby with Sinatra, git, GitHub, R, markdown, LaTeX, vi, Sublime
+			</p>
 		</div>
 
 		<!-- <div class="requirements" id="zen-requirements" role="article">
@@ -249,12 +248,12 @@
 				<a href="https://www.linkedin.com/in/brant-collins">www.linkedin.com/in/brant-collins</a>
 			</div>
 			<div style="float: right;">
-				<div>
+				<!-- <div>
 				<i class="fa fa-phone"></i>
-				<!-- <span style="float: right;">Mobile: (219) 331 1541</span> -->
 				(219) 331-1541
-				<div>
-				Resume [<a href="./images/6th-draft-20190812.pdf">PDF</a>]
+				<div> -->
+				<i class="fa fa-file"></i>
+				Resume [<a href="./images/CollinsBrant_Resume.pdf">PDF</a>]
 				</div>
 			</div>
 
